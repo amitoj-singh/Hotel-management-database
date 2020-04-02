@@ -1,6 +1,6 @@
 /*
 * HOTEL MANAGEMENT DATABASE
-* PL/SQL usiing PostgreSQL
+* PL/SQL using PostgreSQL
 * Developed by: Amitoj Singh
 * WED 02 April 2020
 */
