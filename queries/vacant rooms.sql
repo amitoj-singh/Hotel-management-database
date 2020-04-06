@@ -1,5 +1,5 @@
 -- Display the number of rooms vacant of all the room categories and their cost in a particular hotel
-SELECT  room_categories.name AS category, room_categories.description, room_categories.cost, count(*) AS num_of_rooms
+SELECT room_categories.name AS category, room_categories.description, room_categories.cost, count(*) AS num_of_rooms
 FROM room_categories
 INNER JOIN rooms
 ON room_categories.room_category_id = rooms.room_room_category_id
